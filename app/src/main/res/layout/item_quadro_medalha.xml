@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/zero"
+        android:id="@+id/position"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/borda"
+        android:paddingBottom="@dimen/borda"
+        android:paddingLeft="@dimen/borda"
+        android:paddingRight="@dimen/borda"
+        android:gravity="end"
+        android:layout_weight="2"
+         />
+
+    <ImageView
+        android:contentDescription="@string/nome_pais"
+        android:id="@+id/imgFlag"
+        android:gravity="fill"
+        android:src="@drawable/rio_flag_bra"
+        android:layout_width="@dimen/item_flag_width"
+        android:layout_height="@dimen/item_flag_height"
+
+        android:paddingTop="@dimen/borda"
+        android:paddingBottom="@dimen/borda"
+        android:paddingLeft="@dimen/borda"
+        android:paddingRight="@dimen/borda"
+        android:scaleType="fitXY"/>
+
+
+    <TextView
+        android:id="@+id/descCountry"
+        android:gravity="fill"
+        android:text="@string/nome_esporte"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/borda"
+        android:paddingBottom="@dimen/borda"
+        android:paddingLeft="@dimen/borda"
+        android:paddingRight="@dimen/borda"
+        android:layout_weight="7"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+         />
+
+    <TextView
+        android:id="@+id/goldCount"
+        android:text="@string/zero"
+        android:gravity="center"
+        android:background="@drawable/rio_ic_medals_gold"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:paddingTop="@dimen/borda"
+        android:paddingBottom="@dimen/borda"
+        android:paddingLeft="@dimen/borda"
+        android:paddingRight="@dimen/borda"
+        android:layout_weight="2"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/silverCount"
+        android:text="@string/zero"
+        android:gravity="center"
+        android:background="@drawable/rio_ic_medals_silver"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:paddingTop="@dimen/borda"
+        android:paddingBottom="@dimen/borda"
+        android:paddingLeft="@dimen/borda"
+        android:paddingRight="@dimen/borda"
+        android:layout_weight="2"
+        />
+
+    <TextView
+        android:id="@+id/bronzeCount"
+        android:text="@string/zero"
+        android:gravity="center"
+        android:background="@drawable/rio_ic_medals_bronze"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:paddingTop="@dimen/borda"
+        android:paddingBottom="@dimen/borda"
+        android:paddingLeft="@dimen/borda"
+        android:paddingRight="@dimen/borda"
+        android:layout_weight="2"
+        />
+
+
+</LinearLayout>

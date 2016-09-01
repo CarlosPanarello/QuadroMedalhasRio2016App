@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:paddingBottom="@dimen/activity_margin_baixo"
+    android:paddingStart="@dimen/activity_margin_esquerda"
+    android:paddingEnd="@dimen/activity_margin_direita"
+    android:paddingTop="@dimen/activity_margin_cima"
+    tools:context="com.carlospanarello.quadromedalhasrio2016.MedalhasPais"
+    tools:showIn="@layout/activity_quadro_medalhas">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="487dp"
+        android:id="@+id/listView_Medalhas" />
+
+
+</LinearLayout>
